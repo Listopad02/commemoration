@@ -1,0 +1,340 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 112px;
+}
+.box__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 21px;
+}
+.border {
+    border-bottom: 1px solid white;
+    width: 270px;
+    height: 1px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 0 0 21px 0;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.nabor {
+    display: flex;
+
+}
+
+.card {
+    width: 350px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto 0 30px;
+}
+
+.card:first-child {
+    height: 570px
+}
+.card:last-of-type {
+    height: 630px;
+}
+.none {
+    display: none;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #E9C100;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.img {
+    min-width: 250px !important;
+    width: 250px!important;
+    height: 250px!important;
+    padding: 30px;
+    margin: 30px auto 30px auto!important;
+    min-height: 250px!important;
+    max-height: 250px!important;
+    border-radius: 30px;
+}
+.description {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.card__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 115.4%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 0px 0 20px 0;
+}
+.card__text {
+    width: 260px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115.4%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 42px;
+    text-align: center;
+
+}
+.card__weight {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 115.4%;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+.card__price {
+    width: 130px!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 115.4%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 11px 0 0 0;
+}
+
+.box__btn {
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+}
+
+.card__btn {
+    background: #E9C100;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    margin: auto 0 0 auto;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.structure {
+    margin: 0 0 0 35px;
+    height: 240px;
+}
+
+.card__t {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 115.4%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 0 0 20px 0;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 199px;
+    width: 227px;
+}
+
+.li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0;
+    width: 200px;
+}
+.li__modal {
+    color: black;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.btn__info {
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 115.4%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: rgb(255, 255, 255);
+    width: 179px;
+    margin: 30px auto 20px auto;
+}
+.btn_link:hover {
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 15px rgb(25, 226, 255)) drop-shadow(0px 0px 15px rgb(25, 226, 255));
+}
+.btn__info:hover {
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 15px rgb(25, 226, 255)) drop-shadow(0px 0px 15px rgb(25, 226, 255));
+}
+.box_nabor {
+    display: flex;
+}
+.btn_link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115.4%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: rgba(255, 255, 255);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin: 0 auto;
+
+}
+
+.modal__box {
+    width: 80%;
+}
+
+@media (max-width: 1100px) {
+    .nabor {
+        display: grid;
+        /*justify-content: center;*/
+    }
+    .box_nabor {
+        flex-direction: column;
+        width: auto;
+    }
+    .card {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+    /*.img {*/
+    /*    min-width: 250px!important;*/
+    /*}*/
+}
+
+@media (max-width: 1000px) {
+    .modal__box {
+        flex-direction: column;
+        height: 80%;
+        overflow: auto;
+    }
+    .box__img {
+        flex-direction: column;
+    }
+
+    .box__nabor {
+        overflow: visible!important;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .border {
+        width: 150px;
+    }
+    .title {
+        margin: 0;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .modal__box {
+        padding: 10px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .border {
+        width: 70px;
+    }
+
+    /*.card {*/
+    /*    flex-direction: column;*/
+    /*    width: 300px;*/
+    /*    height: 415px;*/
+    /*    margin-top: 150px;*/
+    /*}*/
+    .img {
+        margin: 20px auto 0 auto;
+    }
+    .card__text {
+        text-align: center;
+    }
+    .box__btn {
+        width: 250px;
+        margin: -20px auto 0 auto;
+        padding-bottom: 10px;
+    }
+    .ul {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 450px) {
+    .box__nabor {
+        margin: 0 0 0 0!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .modal__box {
+        width: 100%;
+    }
+    .border {
+        width: 40px;
+    }
+    .title {
+        font-size: 23px;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    .img {
+        width: 250px;
+        height: 250px;
+    }
+}

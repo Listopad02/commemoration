@@ -1,0 +1,36 @@
+@import "../public/fonts/roboto.css";
+
+html {
+  background: linear-gradient(183.65deg, #0F131A 19.64%, #797777 80.16%);
+  width: 100%;
+  /*height: 100%;*/
+  /*background-size: cover;*/
+  padding: 0;
+}
+
+body {
+  background:  url("../public/Image/image 27.png");
+  /*background-size: cover;*/
+  width: 100%;
+  padding: 0;
+  /*height: 100vh;*/
+  font-family: 'didact', sans-serif;
+  position: relative;
+}
+.global {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /*max-width: 1200px;*/
+  margin: 0 auto -6px auto;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

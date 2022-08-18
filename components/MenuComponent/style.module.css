@@ -1,0 +1,119 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 112px;
+}
+.box__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 21px;
+}
+.border {
+    border-bottom: 1px solid white;
+    width: 270px;
+    height: 1px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.btn:hover {
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 15px rgb(25, 226, 255)) drop-shadow(0px 0px 15px rgb(25, 226, 255));
+}
+
+.btn_link:hover {
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 15px rgb(25, 226, 255)) drop-shadow(0px 0px 15px rgb(25, 226, 255));
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.btn_link {
+    transition: 0.5s;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115.4%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: rgba(255, 255, 255);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin: 0 auto;
+    width: 201px;
+}
+
+.btn {
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    background: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115.4%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: rgba(255, 255, 255);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin: 0 18px 15px 0;
+    cursor: pointer;
+}
+
+.box__links {
+    max-width: 904px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box__slider {
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 850px) {
+    .title {
+        font-size: 35px;
+    }
+    .border {
+        width: 150px;
+    }
+    .box__links {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .title{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .border {
+        width: 100px;
+    }
+}
+@media (max-width: 400px) {
+    .title {
+        font-size: 30px;
+    }
+    .border {
+        width: 50px;
+    }
+}

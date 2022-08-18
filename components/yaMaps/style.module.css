@@ -1,0 +1,48 @@
+.text__title {
+    font-size: 35px;
+    color: white;
+}
+.text__text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 50px;
+    justify-content: center;
+    /*align-items: center;*/
+    margin: 0 auto;
+    color: white;
+}
+@media (max-width: 1200px) {
+    .description {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 800px) {
+    .description {
+        grid-template-columns: 1fr;
+    }
+    .text__text {
+        margin: 0 auto;
+        text-align: center;
+        width: 380px;
+    }
+    .text__title {
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .maps {
+        height: 500px;
+    }
+}
+
+@media (max-width: 400px) {
+    .text__text {
+        width: 300px;
+    }
+
+}
